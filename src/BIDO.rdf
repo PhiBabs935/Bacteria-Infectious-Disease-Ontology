@@ -12,7 +12,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bido.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bido/2021-6-5/bido.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2025-04-17/bido.owl"/>
         <protege:defaultLanguage xml:lang="en">en</protege:defaultLanguage>
         <dc:creator xml:lang="en">Shane Babcock</dc:creator>
         <dc:description xml:lang="en">The Bacteria Infectious Disease Ontology (BIDO) is an extension of IDO that will serve as a reference ontology concerning bacterial pathogens. In turn it will serve as a hub for IDO extensions concerning specific bacterial infectious diseases. It mirrors the Virus Infectious Disease Ontology in that respect.
@@ -2654,9 +2654,9 @@ The range of this relation is a microbe (a bacterium, a virus, a fungus, and a p
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Infection that has as part some bacteria.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacterial infection</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Infection that has as part some bacterium.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacterial infection</rdfs:label>
     </owl:Class>
     
 
@@ -2782,9 +2782,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000436"/>
-        <obo:IAO_0000115>Infectious disease that has its material basis in some bacterial infectious disorder.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacterial infectious disease</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Infectious disease that has its material basis in some bacterial infectious disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacterial infectious disease</rdfs:label>
     </owl:Class>
     
 
@@ -2803,9 +2803,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Infectious disease course that is the realization of a bacterial infectious disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacterial infectious disease course</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Infectious disease course that is the realization of a bacterial infectious disease.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacterial infectious disease course</rdfs:label>
     </owl:Class>
     
 
@@ -2838,10 +2838,10 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Antibiotic that is used to kill bacteria.</obo:IAO_0000115>
-        <obo:IAO_0000116>This is an inferred subclass of &apos;bactericidal&apos;.</obo:IAO_0000116>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bactericidal antibiotic</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Antibiotic that is used to kill bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is an inferred subclass of &apos;bactericidal&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bactericidal antibiotic</rdfs:label>
     </owl:Class>
     
 
@@ -2894,10 +2894,10 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Antibiotic that is used to inhibit the growth of bacteria.</obo:IAO_0000115>
-        <obo:IAO_0000116>This is an inferred subclass of &apos;bacteriostatic&apos;.</obo:IAO_0000116>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacteriostatic antibiotic</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Antibiotic that is used to inhibit the growth of bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is an inferred subclass of &apos;bacteriostatic&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacteriostatic antibiotic</rdfs:label>
     </owl:Class>
     
 
@@ -3342,9 +3342,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIDO_0000773">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <obo:IAO_0000115>Object aggregate whose members are bacteria.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacteria aggregate</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Object aggregate whose members are bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacteria aggregate</rdfs:label>
     </owl:Class>
     
 
@@ -3367,9 +3367,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Colony whose members are bacteria.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacteria colony</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Colony whose members are bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacteria colony</rdfs:label>
     </owl:Class>
     
 
@@ -3392,9 +3392,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Organism population whose members are bacteria.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacteria population</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Organism population whose members are bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacteria population</rdfs:label>
     </owl:Class>
     
 
@@ -3423,9 +3423,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Host whose extended organism has some bacteria part.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacteria host</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Host whose extended organism has some bacterium part.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacteria host</rdfs:label>
     </owl:Class>
     
 
@@ -3543,9 +3543,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIDO_0000782">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000502"/>
-        <obo:IAO_0000115>Process of bacterial infectious disease realizations for which there is a statistically significant increase in the bacterial infectious disease incidence of a population.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacterial infectious disease epidemic</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Process of bacterial infectious disease realizations for which there is a statistically significant increase in the bacterial infectious disease incidence of a population.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacterial infectious disease epidemic</rdfs:label>
     </owl:Class>
     
 
@@ -3554,9 +3554,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIDO_0000783">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000503"/>
-        <obo:IAO_0000115>Process in which multiple bacterial infectious disease epidemics of the same type of bacterial infectious disease unfold over overlapping periods of time and affect organism populations located in different geographic regions, including different countries and continents.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacterial infectious disease pandemic</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Process in which multiple bacterial infectious disease epidemics of the same type of bacterial infectious disease unfold over overlapping periods of time and affect organism populations located in different geographic regions, including different countries and continents.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacterial infectious disease pandemic</rdfs:label>
     </owl:Class>
     
 
@@ -3565,9 +3565,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIDO_0000784">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
-        <obo:IAO_0000115>Process boundary that marks the beginning of the lify cycle of a bacterium.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacteria birth process boundary</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Process boundary that marks the beginning of the lify cycle of a bacterium.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacteria birth process boundary</rdfs:label>
     </owl:Class>
     
 
@@ -3576,9 +3576,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIDO_0000785">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
-        <obo:IAO_0000115>Process boundary that marks the end of the life cycle of some bacterium.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacteria death process boundary</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Process boundary that marks the end of the life cycle of some bacterium.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacteria death process boundary</rdfs:label>
     </owl:Class>
     
 
@@ -3587,9 +3587,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIDO_0000786">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001384"/>
-        <obo:IAO_0000115>Incubation process of some bacterium beginning with infection by the bacterium and ending with the manifestation of symptoms.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacteria incubation process</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Incubation process of some bacterium beginning with infection by the bacterium and ending with the manifestation of symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacterium incubation process</rdfs:label>
     </owl:Class>
     
 
@@ -3598,9 +3598,9 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BIDO_0000787">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001385"/>
-        <obo:IAO_0000115>Latency process involving a bacterium, during which the bacterium lies dormant within the host, and ending when the bacterium starts to reproduce.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:label>bacterial latency process</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Latency process involving a bacterium, during which the bacterium lies dormant within the host, and ending when the bacterium starts to reproduce.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bacterial latency process</rdfs:label>
     </owl:Class>
     
 
@@ -3654,10 +3654,10 @@ I am not sure. Take the case of disorder caused by bacteria that do not localize
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>Biofilm consisting of an aggregate of surface-associated bacteria that are enveloped in a biofilm matrix produced by those bacteria.</obo:IAO_0000115>
-        <obo:IAO_0000117>Shane Babcock</obo:IAO_0000117>
-        <rdfs:comment>Generally, many bacterial biofilms show protective resistance to the human immune system, as well as resistance to antibiotics.</rdfs:comment>
-        <rdfs:label>bacterial biofilm</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Biofilm consisting of an aggregate of surface-associated bacteria that are enveloped in a biofilm matrix produced by those bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Shane Babcock</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Generally, many bacterial biofilms show protective resistance to the human immune system, as well as resistance to antibiotics.</rdfs:comment>
+        <rdfs:label xml:lang="en">bacterial biofilm</rdfs:label>
     </owl:Class>
     
 
